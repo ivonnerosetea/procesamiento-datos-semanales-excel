@@ -62,7 +62,7 @@ resultado, alertas = procesar_datos(file_path)
 for alerta in alertas:
     print(alerta)
 if not alertas:
-    print("No se encontraron alertas.")
+    print("No se encontraron más problemas en los datos.")
 
 # 15. Guarda los datos procesados en un nuevo archivo Excel
 resultado.to_excel("resultado_semanal.xlsx", index=False)
